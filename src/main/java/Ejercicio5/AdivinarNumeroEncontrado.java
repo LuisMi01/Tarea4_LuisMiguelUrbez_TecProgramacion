@@ -20,7 +20,6 @@ public class AdivinarNumeroEncontrado {
             if(respuesta.equals("+")){
                 if(numMaquina > numeroUsuario){
                     System.out.println("No es mayor");
-
                     lista.add(numMaquina);
                 }
             }else if(respuesta.equals("-")){
