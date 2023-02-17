@@ -38,9 +38,10 @@ public class ASCII2 {
     }
 
     public static void cuadrado() {
+        Scanner sc = new Scanner(System.in);
         int numero;
         System.out.println("Escriba un número");
-        numero = Integer.parseInt(System.console().readLine());
+        numero = sc.nextInt();
 
         for (int i = 0; i < numero; i++) {
             for (int j = 0; j < numero; j++) {
@@ -51,9 +52,10 @@ public class ASCII2 {
     }
 
     public static void triangulo() {
+        Scanner sc = new Scanner(System.in);
         int numero;
         System.out.println("Escriba un número");
-        numero = Integer.parseInt(System.console().readLine());
+        numero = sc.nextInt();
 
         for (int i = 0; i < numero; i++) {
             for (int j = 0; j < i; j++) {
@@ -64,9 +66,10 @@ public class ASCII2 {
     }
 
     public static void rombo() {
+        Scanner sc = new Scanner(System.in);
         int numero;
         System.out.println("Escriba un número");
-        numero = Integer.parseInt(System.console().readLine());
+        numero = sc.nextInt();
 
         for (int i = 0; i < numero; i++) {
             for (int j = 0; j < i; j++) {
